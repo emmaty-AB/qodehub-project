@@ -1,0 +1,39 @@
+/*
+   Site Colors:;
+#1A446C - blue grey
+#689DC1 - light blue
+#D4E6FA - very light blue
+#EEE4B9 - light tan
+#8D0D19 - burgundy
+*/
+
+html { height: 100%; width: 100%; }
+body { height: 100%; width: 100%; margin: 0; padding: 0; border: 0; background: #FFFFFF;
+       font: 13px/15px Verdana, Arial,Helvetica,sans-serif;}
+img { border: none;}
+table, tr, td, tr { border-collapse: collapse; vertical-align: top; text-align: left;
+                    font: 13px/15px Verdana, Arial,Helvetica,sans-serif;}
+a { color: #8D0D19;}
+#header { height: 70px; text-align: left; background: #1A446C; color: #D4E6FA;}
+#header h1 { padding: 1em; margin: 0}
+
+#main { min-height: 600px; background-color: #FFE4B5;}
+#main h2 {color: black; margin-left: 20px; margin-top: 0; padding-top: 5;}
+#main table { margin: 20px;}
+
+#footer { height: 2em; padding: 1em; text-align: center;
+          background: #1A446C; color: #D4E6FA;}
+
+table.bordered tr th, table.bordered tr td { border: 1px solid #000000; }
+
+#pagination .selected { font-weight: bold; color: #8D0D19; }
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+    
+}
